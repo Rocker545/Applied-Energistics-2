@@ -104,11 +104,6 @@ public class CellInventory implements ICellInventory
 		{
 			throw new AppEngException( "ItemStack was used as a cell, but was not a cell!" );
 		}
-
-		if( this.maxItemTypes > 63 )
-		{
-			this.maxItemTypes = 63;
-		}
 		if( this.maxItemTypes < 1 )
 		{
 			this.maxItemTypes = 1;
