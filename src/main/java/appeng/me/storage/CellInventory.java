@@ -69,8 +69,8 @@ public class CellInventory implements ICellInventory
 	{
 		if( itemSlots == null )
 		{
-			itemSlots = new String[2147483647];
-			itemSlotCount = new String[2147483647];
+			itemSlots = new String[1023];
+			itemSlotCount = new String[1023];
 
 			for( int x = 0; x < this.maxItemTypes; x++ )
 			{
