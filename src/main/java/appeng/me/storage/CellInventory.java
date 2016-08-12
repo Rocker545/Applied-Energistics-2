@@ -58,7 +58,7 @@ public class CellInventory implements ICellInventory
 	private static String[] itemSlotCount;
 	private final NBTTagCompound tagCompound;
 	private final ISaveProvider container;
-	private int maxItemTypes = 63;
+	private int maxItemTypes = 1024;
 	private short storedItems = 0;
 	private int storedItemCount = 0;
 	private IItemList<IAEItemStack> cellItems;
