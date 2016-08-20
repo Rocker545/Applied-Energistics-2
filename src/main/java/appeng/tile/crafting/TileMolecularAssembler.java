@@ -475,7 +475,7 @@ public class TileMolecularAssembler extends AENetworkInvTile implements IUpgrade
 				this.progress += this.userPower( ticksSinceLastCall, speed = 25, 2.5 );
 				break;
 			case 5:
-				this.progress += this.userPower( ticksSinceLastCall, speed = 50, 5.0 );
+				this.progress += 100;
 				break;
 		}
 
