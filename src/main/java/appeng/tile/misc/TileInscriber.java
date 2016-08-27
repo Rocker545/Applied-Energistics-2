@@ -80,7 +80,7 @@ import appeng.util.item.AEItemStack;
 public class TileInscriber extends AENetworkPowerTile implements IGridTickable, IUpgradeableHost, IConfigManagerHost
 {
 
-	private final int maxProcessingTime = 100;
+	private final int maxProcessingTime = 1;
 	private final int[] top = { 0 };
 	private final int[] bottom = { 1 };
 	private final int[] sides = { 2, 3 };
